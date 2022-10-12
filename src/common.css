@@ -1,0 +1,427 @@
+.container {
+  background-image: url(./Component/img/OEP5.jpg);
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+  background-color: antiquewhite;
+}
+.container1 {
+  background-image: url(./Component/img/OEP5.jpg);
+  background-size: cover;
+  height: 657px;
+  width: 100%;
+  background-color: antiquewhite;
+}
+.childcontainerlogin {
+  text-align: center;
+  align-items: center;
+  border: 1px solid gray;
+  position: relative;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 10px;
+  height: 210px;
+}
+.childcontainer {
+  text-align: center;
+  align-items: center;
+  border: 1px solid gray;
+  position: relative;
+  top: 90px;
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+  height: 220px;
+}
+.childcontainer1 {
+  margin-top: -10rem;
+  margin-left: 32rem;
+  text-align: center;
+  align-items: center;
+  border: 1px solid gray;
+  position: relative;
+  top: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 10px;
+}
+#textfield1,
+#textfield2 {
+  padding: 10px;
+  width: 10rem;
+  height: 0.6rem;
+}
+.account {
+  color: dimgray;
+  position: relative;
+  right: 3rem;
+  margin-top: -16px;
+  text-decoration: none;
+  font-size: small;
+}
+.password {
+  color: dimgray;
+  position: relative;
+  left: 3rem;
+  margin-top: -52px;
+  display: inline;
+  text-decoration: none;
+  font-size: small;
+}
+.label1 {
+  position: relative;
+  right: 4.2rem;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+.label2 {
+  position: relative;
+  right: 2.8rem;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+.label4 {
+  position: relative;
+  right: 3.5rem;
+  margin: 5px;
+  margin-top: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+.label5 {
+  position: relative;
+  right: 4.2rem;
+  margin: 5px;
+  margin-top: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+#button {
+  width: 11.5rem;
+  background-color: darkslateblue;
+}
+#img2 {
+  width: 18rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  mix-blend-mode: multiply;
+}
+#button1 {
+  margin-top: 1rem;
+}
+FormControlLabel {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+.checkdiv {
+  display: flex;
+}
+.labelradio {
+  position: relative;
+  top: 8px;
+  left: 5px;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+.labelcreate {
+  position: relative;
+  right: 3.5rem;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+.labelid {
+  position: relative;
+  right: 4.2rem;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+.labelmobile {
+  position: relative;
+  right: 2.7rem;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+.inputradio {
+  position: relative;
+  top: 7px;
+}
+.labellocation {
+  position: relative;
+  right: 3.8rem;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+#buttoncreate {
+  margin-top: 15px;
+  width: 12rem;
+  background-color: darkslateblue;
+}
+#buttonpassword {
+  margin-top: 15px;
+  width: 11.5rem;
+  background-color: darkslateblue;
+}
+@media screen and (min-width: 320px), (max-height: 500px) {
+  .childcontainerlogin {
+    width: 220px;
+    margin: auto;
+  }
+  .childcontainer {
+    width: 180px;
+    margin: auto;
+  }
+  .childcontainer1 {
+    width: 227px;
+    margin: auto;
+  }
+  .container {
+    margin: auto;
+  }
+  .header {
+    margin: auto;
+  }
+  .selectprimaryskills {
+    margin: auto;
+    width: 300px;
+  }
+  .containerupdate {
+    margin: auto;
+  }
+  Stack {
+    width: 200px;
+  }
+  /* .primaryskillsdiv {
+    margin: auto;
+    width: 250px;
+  }
+  .containerupdate {
+    width: 300px;
+  } */
+}
+.landingpage {
+  text-decoration: none;
+}
+.header {
+  border: 1px solid red;
+}
+#imglanding {
+  width: 18rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  mix-blend-mode: multiply;
+}
+#deleteicon {
+  width: 3rem;
+  height: 2rem;
+  /* position: relative;
+  left: 56rem;
+  bottom: 0.8rem; */
+}
+#searchlabel {
+  font-size: larger;
+  font-weight: 400;
+  position: relative;
+  /* left: 55rem; */
+  bottom: 0.8rem;
+}
+.grid {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 10rem;
+  align-items: center;
+}
+.grid1 {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  height: 20rem;
+  width: 30rem;
+  /* align-items: center; */
+}
+.child2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header2 {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(157, 205, 224);
+  position: relative;
+  bottom: 7px;
+  height: 3.5rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.Home {
+  border: 5px solid rgb(157, 205, 224);
+  background-color: rgb(157, 205, 224);
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  font-weight: 600;
+  width: 80px;
+}
+.Industry {
+  border: 5px solid rgb(157, 205, 224);
+  background-color: rgb(157, 205, 224);
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  font-weight: 600;
+  width: 80px;
+}
+.allnews {
+  border: 5px solid rgb(157, 205, 224);
+  background-color: rgb(157, 205, 224);
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  font-weight: 600;
+  width: 110px;
+}
+.usefullinks {
+  border: 5px solid rgb(157, 205, 224);
+  background-color: rgb(157, 205, 224);
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  font-weight: 600;
+  width: 127px;
+}
+#img3 {
+  width: 38rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  mix-blend-mode: multiply;
+}
+.imagecontent {
+  display: flex;
+  flex-direction: row;
+  width: 82rem;
+}
+figcaption {
+  margin: 2rem;
+}
+#exitcreat {
+  position: relative;
+  right: 5.5rem;
+  padding-bottom: 0.6rem;
+  width: 2rem;
+  height: 1.8;
+  color: blue;
+}
+#exitresetpass {
+  position: relative;
+  right: 5.2rem;
+  top: -0.5rem;
+  width: 2rem;
+  height: 1.8;
+  color: blue;
+  margin-top: -10px;
+}
+.containerupdateskills {
+  width: 1200px;
+  align-items: center;
+  text-align: center;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* position: relative;
+  left: 50px; */
+  /* border: 1px solid red; */
+}
+.uploadcertificates {
+  width: 810px;
+}
+.containerupdateprofile {
+  width: 800px;
+  align-items: center;
+  text-align: center;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center; */
+  /* position: relative;
+  left: 50px; */
+  /* border: 1px solid red; */
+}
+.selectprimaryskills {
+  width: 300px;
+  height: 50px;
+}
+.primaryskill,
+.secondaryskill,
+.uploadprofile {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* display: inline; */
+}
+.containerupdate {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-image: url(./Component/img/OEP5.jpg);
+  background-size: cover;
+  height: 640px;
+  /* width: 100%; */
+}
+.profilediv {
+  width: 500px;
+}
+.avatar {
+  position: relative;
+  left: 10rem;
+}
+.primaryskillsdiv {
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  height: 640px;
+  border: 1px solid rgb(110, 92, 209);
+}
+#primaryskilltextfield {
+  width: 12rem;
+  height: 0.6rem;
+}
+#primaryskillbutton {
+  width: 5rem;
+  height: 2.5rem;
+  background-color: green;
+}
+.avatar {
+  border: 3px solid blue;
+}
+#inputfile {
+  margin: 1rem 0rem 1rem 6.5rem;
+}
+#profileremovebutton {
+  background-color: rgb(114, 65, 160);
+  margin-left: 2rem;
+  height: 2rem;
+}
+.cardone {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-start; */
+  border: 1px solid red;
+  height: 250px;
+}
